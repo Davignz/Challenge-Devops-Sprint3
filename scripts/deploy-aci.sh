@@ -1,6 +1,3 @@
-#!/usr/bin/env bash
-set -euo pipefail
-source "$(dirname "$0")/../.env"
 
 LOGIN_SERVER=$(az acr show -n "$ACR_NAME" --query loginServer -o tsv)
 ACR_USER=$(az acr credential show -n "$ACR_NAME" --query "username" -o tsv)

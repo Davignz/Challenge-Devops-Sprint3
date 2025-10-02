@@ -1,8 +1,3 @@
--- script_bd.sql
--- DDL das tabelas (MySQL 8) com estrutura e comentários.
--- Este arquivo contém SOMENTE DDL, conforme solicitado no enunciado.
--- Schema recomendado: appdb
-
 CREATE DATABASE IF NOT EXISTS appdb
   CHARACTER SET utf8mb4
   COLLATE utf8mb4_0900_ai_ci;
